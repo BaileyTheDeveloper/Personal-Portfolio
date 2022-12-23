@@ -1,2 +1,2 @@
 # portfolio
-Person web development portfolio
+Personal web development portfolio
