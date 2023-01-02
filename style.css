@@ -78,7 +78,6 @@ nav a:hover{
     top: 175px;
     left: 25%;
     font-family: "Myriad Pro", sans-serif;
-    color: ;
     font-size: 3vw;
 }
 
@@ -109,7 +108,7 @@ nav a:hover{
 .sections h2{
     text-align: center;
     font-family: "Myriad Pro", sans-serif;
-    color: ;
+
     font-size: 64px;
     text-decoration: underline;
     text-decoration-color: #Bb163f;
@@ -118,7 +117,7 @@ nav a:hover{
 
 .sections p{
     font-family: "Myriad Pro", sans-serif;
-    color: ;
+
     margin-right: 10%;
     margin-left: 10%;
     text-align: center;
@@ -131,7 +130,6 @@ nav a:hover{
     width: 100%;
     display: flex;
     justify-content: space-around;
-
     
 }
 
@@ -141,6 +139,9 @@ nav a:hover{
 
 }
 
+
+
+
 .sections-about{
     height: 400px;
     background-color: white;
@@ -149,7 +150,6 @@ nav a:hover{
 
 .sections-about p{
     font-family: "Myriad Pro", sans-serif;
-    color: ;
     margin-right: 10%;
     margin-left: 10%;
     text-align: center;
@@ -159,7 +159,6 @@ nav a:hover{
 .sections-about h2{
     text-align: center;
     font-family: "Myriad Pro", sans-serif;
-    color: ;
     font-size: 64px;
     text-decoration: underline;
     text-decoration-color: #Bb163f;
@@ -193,7 +192,7 @@ nav a:hover{
 /* Media Queries */
 
 /* Media query for mobile */
-@media screen and (max-width: 393px){
+@media screen and (max-width: 390px){
     .sections h2{
         font-size:10vw;
     }
