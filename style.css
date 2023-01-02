@@ -4,6 +4,10 @@ padding:0;
 /* border: black 2px solid; */
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     width: 60%;
     margin: auto;
@@ -19,12 +23,6 @@ nav{
 }
 
 
-#logo img{
-    width: 100px;
-    position: relative;
-    left: 20px;
-    top: 25px;
-}
 ul{
     list-style: none;
     text-align: right;
@@ -46,10 +44,10 @@ nav a{
     font-family: "Myriad Pro", sans-serif;
     color: white; 
     text-decoration: none;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-right: 1.75em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: .75em;
 }
 
 nav a:hover{
@@ -60,7 +58,7 @@ nav a:hover{
 }
 
 #banner{
-    height: 33%;
+    height: 53vh;
     background-color: #E6eaea;
    
 
@@ -75,26 +73,26 @@ nav a:hover{
 }
 
 #banner h2{
-    position: absolute;
-    top: 175px;
-    left: 25%;
+    position:relative;
+    bottom: 6.5em;
+    left: 3vw;
     font-family: "Myriad Pro", sans-serif;
     font-size: 3vw;
 }
 
 #banner h1{
-    position: absolute;
-    top: 250px;
-    left: 25%;
+    position: relative;
+    bottom: 3.75em;
+    left: 2.80vw;
     font-family: "Myriad Pro", sans-serif;
     color: #Bb163f;
     font-size: 5.25vw;
 }
 
 #banner h3{
-    position: absolute;
-    top: 375px;
-    left: 26%;
+    position: relative;
+    bottom: 20em;
+    left: 3vw;
     font-family: "Myriad Pro", sans-serif;
     color: #B3b2b2;
     
@@ -134,11 +132,11 @@ nav a:hover{
     
 }
 
-.project-images>img{
-    width: 25%;
+.project-images img{
+    width: 100%;
     height: auto;
-
 }
+
 
 
 
@@ -153,14 +151,25 @@ nav a:hover{
     margin-right: 10%;
     margin-left: 10%;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 .sections-about a{
     text-decoration: none;
     color:#Bb163f;
     font-weight: 600;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  
 }
+
+.sections-about a:hover{
+text-decoration: none;
+color:white;
+background-color:#Bb163f ;
+font-weight: 600;
+}
+
 .sections-about h2{
     text-align: center;
     font-family: "Myriad Pro", sans-serif;
@@ -192,6 +201,9 @@ nav a:hover{
     
 }
 
+#linkedin-button img{
+    padding-left: 20px;
+}
 
 
 /* Media Queries */
