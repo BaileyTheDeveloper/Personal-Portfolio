@@ -1,6 +1,7 @@
 * {
 margin:0;
 padding:0;
+/* border: black 2px solid; */
 }
 
 body{
@@ -101,7 +102,7 @@ nav a:hover{
 
 .sections {
     background-color: white;
-    height: 33%;
+    height: 450px;
     width: 100%;
 }
 
@@ -141,9 +142,8 @@ nav a:hover{
 
 
 
-
 .sections-about{
-    height: 400px;
+    height: 350px;
     background-color: white;
     width: 100%;
 }
@@ -155,7 +155,11 @@ nav a:hover{
     text-align: center;
     font-size: 1vw;
 }
-
+.sections-about a{
+    text-decoration: none;
+    color:#Bb163f;
+    font-weight: 600;
+}
 .sections-about h2{
     text-align: center;
     font-family: "Myriad Pro", sans-serif;
