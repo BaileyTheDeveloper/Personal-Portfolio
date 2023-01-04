@@ -216,55 +216,55 @@ font-weight: 600;
         width: 100vw;
         
     }
-
-    
-
     
     .sections-about h2{
-        font-size: 1.75rem;
+        font-size: 2rem;
         padding-bottom: 10px;
     }
 
-    
 
     .socials img {
     height: 30px;
     }
 
+    #banner{
+        height: 55vw;
+    }
+
     #banner h1{
     position: relative;
     left: 5%;
-    top: -85px;
-    font-size: 5.25vw;
+    top: -125px;
+    font-size: 7.25vw;
 }
 
     #banner h2{
         position: relative;
-        top: -90px;
+        top: -130px;
         left: 6%;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     #banner h3{
         position: relative;
-        top: -80px;
+        top:-120px;
         left: 6%;
         font-size: 3vw;
     }
 
     #banner img{
-        left: 55vw;
-        top: 4vw;
-        width: 25%;
+        left: 50vw;
+        top: 4.5vw;
+        width: 45%;
     }
     
 
     .sections-about p{
-        font-size: .55rem;
+        font-size: .8rem;
     }
 
     .sections h2{
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     li{
@@ -275,4 +275,13 @@ font-weight: 600;
         padding-top: 35px;
     }
     
+    .project-images{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+}
+
+
 } 
