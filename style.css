@@ -211,12 +211,17 @@ font-weight: 600;
 /* Media Queries */
 
 /* Media query for mobile */
- @media screen and (min-width: 360px) and (max-width: 414px){
-    .sections h2{
-        font-size:10vw;
+ @media screen and (min-width: 320px) and (max-width: 480px){
+    body{
+        width: 100vw;
+        
     }
+
+    
+
+    
     .sections-about h2{
-        font-size:10vw;
+        font-size: 1.75rem;
         padding-bottom: 10px;
     }
 
@@ -247,11 +252,19 @@ font-weight: 600;
         font-size: 3vw;
     }
 
-
+    #banner img{
+        left: 55vw;
+        top: 4vw;
+        width: 25%;
+    }
     
 
     .sections-about p{
         font-size: .55rem;
+    }
+
+    .sections h2{
+        font-size: 1.75rem;
     }
 
     li{
