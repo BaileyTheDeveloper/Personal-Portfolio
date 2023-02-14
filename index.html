@@ -1,80 +1,116 @@
 <!DOCTYPE html>
 
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Bailey Pointer | Home</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="queries.css" />
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="./index.html">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#projects">projects</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section>
+				<div id="banner">
+					<img src="./images/bannerphoto.png" />
+					<h2>Hi, I'm</h2>
+					<h1>Bailey Pointer</h1>
+					<h3>Front End Developer</h3>
+				</div>
+			</section>
 
-<body>
-    <nav>
-        <ul>
-            <li><a href="./index.html">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#projects">projects</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <div id="banner">
-                <img src="./images/bannerphoto.png">
-                <h2>Hi, I'm</h2>
-                <h1>Bailey Pointer</h1>
-                <h3>Front End Developer</h3>
-            </div>
-        </section>
+			<section class="sections-about">
+				<div id="about">
+					<h2>about.</h2>
+					<p>
+						Hi there! My name is Bailey Pointer and I am an aspiring front-end
+						web developer. I have a strong passion for creating visually
+						appealing and user-friendly websites. I have a unique perspective on
+						design and development that allows me to create websites that not
+						only look great, but also effectively communicate their message. In
+						my spare time I enjoy learning everything I can about front end
+						development.
+					</p>
+					<p>For inquiries,<a href="#contact">Contact Me!</a></p>
+				</div>
+			</section>
 
-        <section class="sections-about">
-            <div id="about">
-                <h2>about.</h2>
-                <p>Hi there! My name is Bailey Pointer and I am an aspiring front-end web developer. I have a strong
-                    passion for creating
-                    visually appealing and user-friendly websites. I have a unique perspective on design and development
-                    that allows me to create websites that not only look great, but
-                    also effectively communicate their message. In my spare time I enjoy learning everything I can about
-                    front end development.
-                </p>
-                <p>For inquiries,<a href="#contact">Contact Me!</a></p>
-                <div>
+			<section class="sections">
+				<div id="projects">
+					<h2>projects.</h2>
+				</div>
+				<div class="project-images">
+					<a
+						href="https://baileythedeveloper.github.io/NAACP-site/"
+						target="_blank"
+						><img src="./images/NAACP-monitor.jpg"
+					/></a>
+					<a
+						href="https://baileythedeveloper.github.io/calculator/"
+						target="_blank"
+						><img src="./images/calc-monitor.jpg"
+					/></a>
+					<a
+						href="https://baileythedeveloper.github.io/Queen-City-Disposal/"
+						target="_blank"
+						><img src="./images/monitor-template.jpg"
+					/></a>
+				</div>
+			</section>
 
-        </section>
+			<section class="sections">
+				<div id="contact">
+					<h2>contact.</h2>
+				</div>
 
-        <section class=" sections">
-                        <div id="projects">
-                            <h2>projects.</h2>
-                        </div>
-                        <div class="project-images">
-                            <a href="https://baileythedeveloper.github.io/Queen-City-Disposal/" target="_blank"><img
-                                    src="./images/monitor-template.jpg"></a>
-                            <a href="https://baileythedeveloper.github.io/Queen-City-Disposal/" target="_blank"><img
-                                    src="./images/monitor-template.jpg"></a>
-                            <a href="https://baileythedeveloper.github.io/Queen-City-Disposal/" target="_blank"><img
-                                    src="./images/monitor-template.jpg"></a>
-                        </div>
-        </section>
-
-        <section class="sections">
-            <div id="contact">
-                <h2>contact.</h2>
-            </div>
-            <div class="socials">
-                <ul>
-                    <li><a href="#"><img src="./images/twitter-logo-black.png"></a></li>
-                    <li><a href="#" id="linkedin-button"><img src="./images/linkedin-logo-black.png"></a></li>
-                    <li><a href="#"><img src="./images/github-mark.png"></a></li>
-                </ul>
-            </div>
-        </section>
-
-    </main>
-
-
-</body>
-
+				<div class="email-section">
+					<h3>Request an email</h3>
+					<div class="email-form">
+						<form action="contactform.php" method="post">
+							<label for="fname">First name:</label>
+							<input type="text" id="fname" name="fname" /><br />
+							<label for="lname">Last name:</label>
+							<input type="text" id="lname" name="lname" /><br />
+							<label for="email">Email address:</label>
+							<input type="text" id="email" name="email" /><br />
+							<label for="subject">Subject:</label>
+							<input type="text" id="subject" name="subject" /><br />
+							<label for="msg">Message:</label>
+							<textarea id="msg"></textarea><br />
+							<input type="submit" id="submit" name="submit" value="Submit" />
+						</form>
+					</div>
+				</div>
+				<div class="socials">
+					<ul>
+						<li>
+							<a href="#"><img src="./images/twitter-logo-black.png" /></a>
+						</li>
+						<li>
+							<a href="#" id="linkedin-button"
+								><img src="./images/linkedin-logo-black.png"
+							/></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/github-mark.png" /></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>Created by Bailey Pointer 2023</p>
+		</footer>
+	</body>
 </html>

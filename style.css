@@ -1,287 +1,250 @@
 * {
-margin:0;
-padding:0;
-/* border: black 2px solid; */
+	margin: 0;
+	padding: 0;
+	/* border: black 2px solid; */
 }
 
-img{
-    max-width: 100%;
+img {
+	max-width: 100%;
 }
 
-body{
-    width: 60%;
-    margin: auto;
-    background: linear-gradient(176deg, rgba(192,191,205,1) 0%, rgba(108,108,108,1) 0%, rgba(0,0,0,1) 65%);    margin-top: 50px;
+body {
+	width: 60%;
+	margin: auto;
+	background: linear-gradient(
+		176deg,
+		rgba(192, 191, 205, 1) 0%,
+		rgba(108, 108, 108, 1) 0%,
+		rgba(0, 0, 0, 1) 65%
+	);
+	margin-top: 50px;
 }
 
-
-
-nav{
-    background-color: black;
-    padding: 1px;
-
+nav {
+	background-color: black;
+	padding: 1px;
 }
 
-
-ul{
-    list-style: none;
-    text-align: right;
-    padding-top: 2%;
-    padding-bottom: 1%;
+ul {
+	list-style: none;
+	text-align: right;
+	padding-top: 2%;
+	padding-bottom: 1%;
 }
 
-li{
-    display: inline;
-    padding-right: 2%;
-    padding-left: 2%;
-    font-family: "Myriad Pro", sans-serif;
-    color: white;
-    
-    
+li {
+	display: inline;
+	padding-right: 2%;
+	padding-left: 2%;
+	font-family: "Myriad Pro", sans-serif;
+	color: white;
 }
 
-nav a{
-    font-family: "Myriad Pro", sans-serif;
-    color: white; 
-    text-decoration: none;
-    padding-right: 1.75em;
-    padding-left: 2em;
-    padding-top: 1em;
-    padding-bottom: .75em;
+nav a {
+	font-family: "Myriad Pro", sans-serif;
+	color: white;
+	text-decoration: none;
+	padding-right: 1.75em;
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-bottom: 0.75em;
 }
 
-nav a:hover{
-    background-color: #Bb163f;
-    color: white;
-    
-
+nav a:hover {
+	background-color: #bb163f;
+	color: white;
 }
 
-#banner{
-    width: 100%;
-    height: 31.5vw;
-    max-height: 600px;
-    background-color: #E6eaea;
+#banner {
+	width: 100%;
+	height: 31.5vw;
+	max-height: 600px;
+	background-color: #e6eaea;
 }
 
-#banner img{
-    position: relative;
-    top: 4.75vw;
-    height: auto;
-    width: 40%;
-    display: block;
-    left: 35vw;
-    
+#banner img {
+	position: relative;
+	top: 4.75vw;
+	height: auto;
+	width: 40%;
+	display: block;
+	left: 35vw;
 }
 
-#banner h2{
-    position:relative;
-    bottom: 6.5em;
-    left: 3vw;
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 3vw;
+#banner h2 {
+	position: relative;
+	bottom: 6.5em;
+	left: 3vw;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 3vw;
 }
 
-#banner h1{
-    position: relative;
-    bottom: 3.65em;
-    left: 2.80vw;
-    font-family: "Myriad Pro", sans-serif;
-    color: #Bb163f;
-    font-size: 5.25vw;
+#banner h1 {
+	position: relative;
+	bottom: 3.65em;
+	left: 2.8vw;
+	font-family: "Myriad Pro", sans-serif;
+	color: #bb163f;
+	font-size: 5.25vw;
 }
 
-#banner h3{
-    position: relative;
-    bottom: 18vw;
-    left: 3vw;
-    font-family: "Myriad Pro", sans-serif;
-    color: #B3b2b2;
-    font-size: 2vw;
-    
+#banner h3 {
+	position: relative;
+	bottom: 18vw;
+	left: 3vw;
+	font-family: "Myriad Pro", sans-serif;
+	color: #b3b2b2;
+	font-size: 2vw;
 }
 
 .sections {
-    background-color: white;
-    width: 100%;
-    height: 30v;
+	background-color: white;
+	width: 100%;
+	height: 30v;
+	padding-top: 12vh;
 }
 
-.sections h2{
-    text-align: center;
-    font-family: "Myriad Pro", sans-serif;
+.sections h2 {
+	text-align: center;
+	font-family: "Myriad Pro", sans-serif;
 
-    font-size: 64px;
-    text-decoration: underline;
-    text-decoration-color: #Bb163f;
-    padding-bottom: 50px;
+	font-size: 64px;
+	text-decoration: underline;
+	text-decoration-color: #bb163f;
+	padding-bottom: 50px;
 }
 
-.sections p{
-    font-family: "Myriad Pro", sans-serif;
-
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
-    font-size: 2px;
+.sections h3 {
+	font-family: "Myriad Pro", sans-serif;
+	color: #bb163f;
 }
 
+.sections p {
+	font-family: "Myriad Pro", sans-serif;
 
-
-.project-images{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 2px;
 }
 
-.project-images img{
-    width: 100%;
-    height: auto;
+.project-images {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
 
-
-
-
-.sections-about{
-    background-color: white;
-    width: 100%;
-    padding-bottom: 5vw;
+.project-images img {
+	width: 100%;
+	height: auto;
 }
 
-.sections-about p{
-    font-family: "Myriad Pro", sans-serif;
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
-    font-size: 18px;
+.sections-about {
+	background-color: white;
+	width: 100%;
+	padding-bottom: 3vw;
 }
 
-.sections-about a{
-    text-decoration: none;
-    color:#Bb163f;
-    font-weight: 600;
-    padding-left: .5rem;
-    padding-right: .5rem;
-  
+.sections-about p {
+	font-family: "Myriad Pro", sans-serif;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	font-size: 18px;
 }
 
-.sections-about a:hover{
-text-decoration: none;
-color:white;
-background-color:#Bb163f ;
-font-weight: 600;
+.sections-about a {
+	text-decoration: none;
+	color: #bb163f;
+	font-weight: 600;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 }
 
-.sections-about h2{
-    text-align: center;
-    font-family: "Myriad Pro", sans-serif;
-    font-size: 64px;
-    text-decoration: underline;
-    text-decoration-color: #Bb163f;
-    padding-bottom: 50px;
-    padding-top: 20px;
+.sections-about a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #bb163f;
+	font-weight: 600;
 }
 
+.sections-about h2 {
+	text-align: center;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 64px;
+	text-decoration: underline;
+	text-decoration-color: #bb163f;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
 
-
-.socials ul{
-    display: flex;
-    justify-content: space-evenly;
+.socials {
+	padding-bottom: 4vh;
+}
+.socials ul {
+	display: flex;
+	justify-content: space-evenly;
 }
 .socials img {
-    height: 50px;
+	height: 50px;
 }
 
-
-.socials img{
-    padding: 10px;
+.socials img {
+	padding: 10px;
 }
-.socials img:hover{
-    background-color: #Bb163f;
-    height: 51px;
-    transition-duration: 600ms;
-    
+.socials img:hover {
+	background-color: #bb163f;
+	height: 51px;
+	transition-duration: 600ms;
 }
 
-#linkedin-button img{
-    padding-left: 20px;
+#linkedin-button img {
+	padding-left: 20px;
 }
 
+/* email form */
 
-/* Media Queries */
-
-/* Media query for mobile */
- @media screen and (min-width: 320px) and (max-width: 480px){
-    body{
-        width: 100vw;
-        
-    }
-    
-    .sections-about h2{
-        font-size: 2rem;
-        padding-bottom: 10px;
-    }
-
-
-    .socials img {
-    height: 30px;
-    }
-
-    #banner{
-        height: 55vw;
-    }
-
-    #banner h1{
-    position: relative;
-    left: 5%;
-    top: -125px;
-    font-size: 7.25vw;
+.email-section {
+	padding-top: 6vh;
+	padding-bottom: 10vh;
+	font-family: "Myriad Pro", sans-serif;
 }
 
-    #banner h2{
-        position: relative;
-        top: -130px;
-        left: 6%;
-        font-size: 4vw;
-    }
-
-    #banner h3{
-        position: relative;
-        top:-120px;
-        left: 6%;
-        font-size: 3vw;
-    }
-
-    #banner img{
-        left: 50vw;
-        top: 4.5vw;
-        width: 45%;
-    }
-    
-
-    .sections-about p{
-        font-size: .8rem;
-    }
-
-    .sections h2{
-        font-size: 2rem;
-    }
-
-    li{
-        font-size: 11px;
-    }
-
-    section.sections{
-        padding-top: 35px;
-    }
-    
-    .project-images{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: auto;
+.email-section h3 {
+	text-align: center;
+	padding-bottom: 4vh;
 }
 
+.email-section form {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
 
-} 
+#msg {
+	height: 10vh;
+	font-family: "Myriad Pro", sans-serif;
+}
+
+#submit {
+	color: white;
+	background-color: #bb163f;
+	height: 4vh;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#submit:hover {
+	box-shadow: 1px 1px 3px black;
+	background-color: #88112f;
+}
+
+footer {
+	color: white;
+	background-color: #bb163f;
+	height: 6vh;
+	text-align: center;
+	padding-top: 3vh;
+}
